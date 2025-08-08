@@ -12,7 +12,7 @@ function asignarTextoElemento(elemento, texto) {
      return;
 }
 
-asignarTextoElemento('h1', 'Juego del numero Secreto');
+asignarTextoElemento('h1', 'Juego del numero Secreto: intenta adivinar el numero');
 
 asignarTextoElemento('p', `Selecciona un numero del ${numeroMinimo} al ${numeroMaximo}: `);
 
@@ -73,5 +73,6 @@ function reiniciarJuego() {
      //deshabilitar el boton de nuevo juego
      document.querySelector('#reiniciar').setAttribute('disabled', 'true');
 }
+
 
 condicionesIniciales(); 
