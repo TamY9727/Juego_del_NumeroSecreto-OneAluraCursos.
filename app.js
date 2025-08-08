@@ -14,7 +14,7 @@ function asignarTextoElemento(elemento, texto) {
 
 asignarTextoElemento('h1', 'Juego del numero Secreto: intenta adivinar el numero');
 
-asignarTextoElemento('p', `Selecciona un numero del ${numeroMinimo} al ${numeroMaximo}: `);
+asignarTextoElemento('p', `Intenta adivinar un numero del ${numeroMinimo} al ${numeroMaximo}: `);
 
 function generarNumeroSecreto() {
     let numeroGenerado = Math.floor(Math.random()*numeroMaximo)+1;
@@ -76,3 +76,4 @@ function reiniciarJuego() {
 
 
 condicionesIniciales(); 
+
